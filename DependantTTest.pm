@@ -1,10 +1,10 @@
-package DependantTTest;
+package Statistics::DependantTTest;
 use strict;
 use Carp;
 use vars qw($VERSION);
 use Statistics::PointEstimation;
 no strict 'refs';
-$VERSION='0.01';
+$VERSION='0.02';
 
 ##############
 sub new
