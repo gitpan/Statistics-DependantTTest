@@ -10,7 +10,7 @@ BEGIN { use_ok('Statistics::DependantTTest') };
 
 #########################
 
-ok ($t_test = new DependantTTest, 'created a t_test object');
+ok ($t_test = new Statistics::DependantTTest, 'created a t_test object');
 ok ($t_test->load_data('before','4','4','5','5','3'), 'loaded data');
 $t_test->load_data('after','6','5','6','6','5');
 ok (($t_value,$deg_freedom) = $t_test->perform_t_test('before','after'), 'perform t test');

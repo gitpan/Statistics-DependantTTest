@@ -4,7 +4,7 @@ use Carp;
 use vars qw($VERSION);
 use Statistics::PointEstimation;
 no strict 'refs';
-$VERSION='0.02';
+$VERSION='0.03';
 
 ##############
 sub new
